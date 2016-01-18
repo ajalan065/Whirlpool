@@ -1,0 +1,6 @@
+name = Image Whirlpool
+description = Provides the user the flexibility to show the images as a whirlpool carousel
+core = 7.x
+dependencies[]= views
+
+files = views_plugin_style_whirlpool.inc
