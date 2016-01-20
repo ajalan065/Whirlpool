@@ -1,5 +1,15 @@
+#vortex {
+	width: 350px;
+	height: 250px;
+	position: relative;
+  z-index: 0;
+}
+
 #vortex img {
-    height: 70px;
-    width: 70px;
-    position: relative;
-  }
+  width: 180px;
+  height: 150px;
+  position: relative;
+}
+#vortex.vortex-animating>* {
+
+}

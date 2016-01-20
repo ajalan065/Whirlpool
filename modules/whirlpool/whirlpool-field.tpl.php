@@ -10,11 +10,9 @@
  * @ingroup views_templates
  */
 ?>
-<div id="vortex">
-  <div>
+<ul id="vortex">
   <?php foreach ($items as $id => $row):
   ?>
-  <?php print $row;?>
-  </div>
-<?php endforeach;?>
-</div>
+  <li><?php print $row; ?></li>
+<?php endforeach; ?>
+</ul>
