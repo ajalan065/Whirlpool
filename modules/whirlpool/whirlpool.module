@@ -88,7 +88,7 @@ function whirlpool_field_formatter_view($entity_type, $entity, $field, $instance
 /**
  * Implements hook_theme().
  */
-function whirlpool_theme() {
+function whirlpool_theme($existing, $type, $theme, $path) {
   return array(
     'whirlpool' => array(
       'variables' => array('items' => NULL),
@@ -123,7 +123,6 @@ function theme_whirlpool_format($variables) {
     $image = array(
       'path' => $item['uri'],
     );
-
     if (isset($item['alt'])) {
       $image['alt'] = $item['alt'];
     }

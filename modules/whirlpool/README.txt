@@ -22,14 +22,14 @@ Installation
 
 Download the js and css of the jquery plugin from
 http://vortex.montezuma.it/.
-Create a new folder in sites/all/libraries named imagecirclesliderlib and keep
+Create a new folder in sites/all/libraries named whirlpoollib and keep
 the js, css in the folder.
 
 Now follow these steps to use the Whirlpool:
 1. Download and install the module
 2. Create a view for your images.
 3. Go on the format option and select Whirlpool and save it.
-4. Now you can view ur images in the form of whirlpool
+4. Now you can view your images in the form of whirlpool
 
 This module can also be used for field formatter
 
