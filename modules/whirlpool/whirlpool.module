@@ -46,7 +46,6 @@ function template_preprocess_views_whirlpool(&$vars) {
   drupal_add_js('sites/all/libraries/whirlpoollib/js/jquery.freeow.min.js');
   drupal_add_js('sites/all/libraries/whirlpoollib/js/jquery.vortex.js');
   drupal_add_css(('sites/all/libraries/whirlpoollib/css/freeow/freeow.css'), array('type' => 'external'));
-  drupal_add_css(('sites/all/libraries/whirlpoollib/css/site.css'), array('type' => 'external'));
   drupal_add_js(WHIRLPOOL_MODULE_PATH . '/js/whirl.js', 'external');
   drupal_add_css((WHIRLPOOL_MODULE_PATH . '/css/whirl.css'), array('type' => 'external'));
 }
@@ -88,7 +87,7 @@ function whirlpool_field_formatter_view($entity_type, $entity, $field, $instance
 /**
  * Implements hook_theme().
  */
-function whirlpool_theme($existing, $type, $theme, $path) {
+function whirlpool_theme() {
   return array(
     'whirlpool' => array(
       'variables' => array('items' => NULL),

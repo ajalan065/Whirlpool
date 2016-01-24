@@ -16,7 +16,6 @@
     ?>
       <div>
         <?php print $row; ?>
-        <?php print dpm($row); ?>
       </div>
     <?php endforeach;?>
   </div>

@@ -12,10 +12,9 @@ function whirlpool_views_plugins() {
 
   drupal_add_js('sites/all/libraries/whirlpoollib/js/jquery.freeow.min.js');
   drupal_add_css(('sites/all/libraries/whirlpoollib/css/freeow/freeow.css'), array('type' => 'external'));
-  drupal_add_css(('sites/all/libraries/whirlpoollib/css/site.css'), array('type' => 'external'));
   drupal_add_js('sites/all/libraries/whirlpoollib/js/jquery.vortex.js');
-  drupal_add_js(WHIRLPOOL_MODULE_PATH . '/js/whirl.js', 'external');
-  drupal_add_css((WHIRLPOOL_MODULE_PATH . '/css/whirl.css'), array('type' => 'external'));
+  drupal_add_js(drupal_get_path('module', 'whirlpool') . '/js/whirl.js', 'external');
+  drupal_add_css((drupal_get_path('module', 'whirlpool') . '/css/whirl.css'), array('type' => 'external'));
   return array(
     'module' => 'whirlpool',
     'style' => array(

@@ -1,4 +1,4 @@
-Whirlpool
+Image Whirlpool
 
 Table of Contents:
 ==================
@@ -10,9 +10,9 @@ Table of Contents:
 
 Introduction
 ============
-Whirlpool provides the user the flexibility to present their images
+Image Whirlpool provides the user the flexibility to present their images
 in a more attractive and modern way in front of the users.
-It just modifies the views of the images in form of a 3d whirlpool which the user can slide upon to have a nice view of the images.
+It just modifies the views of the images in form of a 3d whirlpool which the user can hover upon to have a nice view of the images.
 
 ============
 This module requires the views module.
@@ -43,4 +43,4 @@ Follow these steps:
 Maintainers
 ===========
 Arpit Jalan: https://www.drupal.org/u/ajalan065
-[Note: Images should have minimum dimensions of 350 pixelsx350 pixels.]
+[Note: Images should have minimum dimensions of 180 pixelsx150 pixels.]
